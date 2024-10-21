@@ -9,7 +9,20 @@ Comment ? Grâce à l'ownership :
     - Chaque variable est propriétaire d'une valeur.
     - Il ne peut y avoir qu'un seul propriétaire
     - Lorsque le propriétaire sort de la portée, la valeur est libérée
+ 
+Cela rajoute également certainne contrainte :
+```rs
+fn main() {
+    let chaine = String::from("hello");
+    let len = calculate_length(chaine); // ici, la fonction prend possession de `chaine`
+    println!("La longueur de '{}' est {}.", chaine, len);    ERREUR car `message` a été libéré auparavant
+}
+
+fn calculate_length(s: String) -&gt; usize {
+    s.len()
+}  
+```
 
 
 ## Pourquoi ne pas coder en Rust ?
-Jusqu'a maitenant j'en ai fait que quelques heures et je trouve la syntaxe attroce.
+Jusqu'a maitenant j'en ai fait que quelques heures et je trouve la syntaxe atroce.
