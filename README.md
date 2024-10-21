@@ -1,7 +1,7 @@
 # Cours-de-Rust
 Note from a Rust course
 
-<img src="[https://tenor.com/view/rust-lang-ferris-gif-19191459](https://media1.tenor.com/m/djaLJiqAxzIAAAAC/rust-lang-ferris.gif)">
+<img src="https://media1.tenor.com/m/djaLJiqAxzIAAAAC/rust-lang-ferris.gif">
 
 ## Pourquoi coder en Rust ?
 - Il est tout aussi performant que C et C++ (ça depend surtout de ce que l'on code).
