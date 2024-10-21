@@ -1,5 +1,6 @@
 # Cours-de-Rust
 Note from a Rust course
+<img src="https://tenor.com/view/rust-lang-ferris-gif-19191459">
 
 ## Pourquoi coder en Rust ?
 - Il est tout aussi performant que C et C++ (ça depend surtout de ce que l'on code).
